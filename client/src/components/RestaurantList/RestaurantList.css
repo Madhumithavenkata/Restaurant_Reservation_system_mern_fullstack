@@ -1,0 +1,42 @@
+/* RestaurantList.css */
+.card-container {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 20px;
+ justify-content: center;
+}
+
+.card {
+ width: 300px;
+ border: 1px solid #ccc;
+ border-radius: 8px;
+ overflow: hidden;
+ transition: transform 0.3s;
+}
+
+.card:hover {
+ transform: scale(1.05);
+}
+
+.card-content {
+ padding: 16px;
+}
+
+.card-actions {
+ display: flex;
+ justify-content: flex-end;
+ padding: 16px;
+}
+
+.button {
+ color: #fff;
+ background-color: #1976D2;
+ text-decoration: none;
+ padding: 8px 16px;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+.button:hover {
+ background-color: #1565C0;
+}
